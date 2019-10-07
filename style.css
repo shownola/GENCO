@@ -6,7 +6,7 @@ body {
   overflow-x: hidden;
   font-family: 'Lato', sans-serif;
   color: #505962;
-  /* background-color: #F3F3EB; */
+  background-color: #F3F3EB;
 }
 
 /* Nav Scrolling Offset */
@@ -21,9 +21,40 @@ body {
 [class*="col-"] {
   padding: 1rem;
 }
-
-#logo {
+/* NAVIGATION */
+.navbar {
+  /* background-color: #F3F3EB; */
+  padding: .7rem 1rem;
+  text-transform: uppercase;
+  font-size: .9rem;
+  font-weight: 700;
+  letter-spacing: .1rem;
+  transition: background-color .5s ease 0s;
+}
+.navbar-brand img {
+  height: 2rem;
+}
+.svg-inline--fa.fa-w-14 {
+  color: #DDC096;
+  font-size: 1.6rem;
+}
+.navbar-nav li {
+  padding-right: .8rem;
+}
+.navbar-nav .nav-link {
   color: #E5A384;
+  padding-top: .8rem;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+  color: #89833C;
+}
+.navbar.solid {
+  background: rgba(0,0,0, 0.7)!important;
+  transition: background-color 1s ease 0s;
+}
+#logo {
+  color: #E69656;
 }
 
 
