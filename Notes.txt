@@ -1,0 +1,18 @@
+How would you link to a different page instead of linking to a section of the same page?
+By changin <a href> link from "#features"(fo example) to "features.html" so long as there is a filed called 'fetaures.html' to link to
+  Correct! If you link to a new page you will also need to add an "active" class to the <a> tag to highlight the menu link color. You would also remove Bootstrap Scrollspy from the <body> tag.
+
+PHOTO EDITORS:
+    https://www4.lunapic.com
+    https://pinetools.com/darken-image
+
+PHOTOS:
+  https://www.pexels.com
+  https://www.unsplash.com
+
+COLOR PALETTE GENERATOR:
+  https://www.canva.com/colors/color-palette-generator/
+
+ANIMATION:
+Animate.css:
+  https://daneden.github.io/animate.css/

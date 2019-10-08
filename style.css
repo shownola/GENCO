@@ -6,7 +6,7 @@ body {
   overflow-x: hidden;
   font-family: 'Lato', sans-serif;
   color: #505962;
-  background-color: #F3F3EB;
+  /* background-color: #F3F3EB; */
 }
 
 /* Nav Scrolling Offset */
@@ -32,7 +32,7 @@ body {
   transition: background-color .5s ease 0s;
 }
 .navbar-brand img {
-  height: 2rem;
+  1rem;
 }
 .svg-inline--fa.fa-w-14 {
   color: #DDC096;
@@ -55,6 +55,109 @@ body {
 }
 #logo {
   color: #E69656;
+  font-weight: 400;
+  line-height: 1.2;
+  font-size: 2rem;
+}
+
+/* LANDING PAGE */
+.home-inner {
+  background-image: url('img/bg8.png');
+}
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+}
+.caption h1 {
+  color: #DDC096;
+  font-size: 4.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+}
+.caption h3 {
+  color: #CDB7A5;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 2rem;
+}
+.btn-lg {
+  color: #DDC096;
+  border-width: medium;
+  border-radius: 0;
+  padding: .8rem 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  display: inline-block!important;
+
+}
+.btn-lg:hover {
+  color: #CDB7A5;
+}
+
+/* FEATURES */
+.narrow {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.btn-sm {
+  border-width: medium;
+  border-radius: 0;
+  padding: .5rem 1.1rem;
+  font-size: .9rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 1rem;
+}
+.btn-turquoise {
+  border-color: #E69656;
+  background-color: #E69656;
+  color: #F3F3EB;
+}
+.btn-turquoise:hover,
+.btn-turquoise:focus {
+  border-color: #E5A384;
+  background-color: #E5A384;
+  color: #F3F3EB;
+}
+.btn-secondary {
+  border-color: #89833C;
+  background-color: #89833C;
+  color: #F3F3EB;
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+  border-color: #DDC096;
+  background-color: #DDC096;
+  color: #F3F3EB;
+}
+.jumbotron {
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 1rem 0 3rem;
+}
+h3.heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 1.9rem;
+}
+.heading-underline {
+  width: 3rem;
+  height: .2rem;
+  background-color: #E5A384;
+  margin: 0 auto 2rem;;
+
 }
 
 
