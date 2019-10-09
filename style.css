@@ -159,6 +159,25 @@ h3.heading {
   margin: 0 auto 2rem;;
 
 }
+.feature {
+  text-align: center;
+}
+.feature .fa-layers {
+  color: #E69656;
+  height: 6rem;
+  margin: 0 auto;
+  width: 3.9rem;
+}
+.feature h3 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  padding-bottom: .4rem;
+}
+.feature p {
+  font-size: 1.1rem;
+}
+
+
 
 
 
