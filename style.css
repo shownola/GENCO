@@ -177,6 +177,22 @@ h3.heading {
   font-size: 1.1rem;
 }
 
+/* FIXED BACKGROUND IMAGE DARK */
+
+#fixed {
+  background-image: url('img/fixed/oils1.jpg');
+  z-index: -1;
+}
+.dark {
+  background-color: rgba(0,0,0,0.75);
+  padding: 7rem 2rem;
+  text-align: center;
+  z-index: 1000!important;
+}
+.dark h3, .dark p {
+  color: #DDC096;
+}
+
 
 
 
