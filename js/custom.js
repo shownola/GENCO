@@ -77,3 +77,25 @@ $(document).ready(function(){
     time: 1800
   })
 })
+
+/* CLIENTS SECTION */
+
+$(document).ready(function(){
+  $('#clients-slider').owlCarousel({
+    items:2,
+    autoplay:true,
+    smartSpeed:1700,
+    loop:true,
+    autoplayHoverPause:true,
+    responsive : {
+      0 : {
+        items: 1
+      },
+      768 : {
+        items: 2
+      }
+
+    }
+  }
+  );
+});
